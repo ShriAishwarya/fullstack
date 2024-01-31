@@ -1,0 +1,29 @@
+/* CustomSidenav.css */
+
+.custom-sidenav {
+    width: 240px;
+    display: inline-table;
+    marginRight: 10px;
+  }
+  
+  .custom-sidenav .rs-sidenav-body {
+    background-color: #151516; /* Sidebar background color */
+    color: #dbe2ef; /* Text color */
+  }
+  
+  .custom-sidenav .rs-nav-item {
+    color: #ffffff; /* Menu item text color */
+  }
+  
+  .custom-sidenav .rs-nav-item:hover {
+    background-color: #1a202c; /* Hover background color */
+  }
+  
+  .custom-sidenav .rs-nav-item.rs-nav-item-active {
+    background-color: #1a202c; /* Active item background color */
+  }
+  
+  .custom-sidenav .rs-sidenav-toggle-btn {
+    color: #ffffff; /* Sidenav toggle button color */
+  }
+  

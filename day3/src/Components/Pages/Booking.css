@@ -1,0 +1,125 @@
+/* Booking.css */
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('https://wallpaperaccess.com/full/624987.jpg');
+  }
+  
+  /* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    transition: background-color 0.3s ease-in-out;
+  } */
+  .empty
+  {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    /* background: #fff; */
+  }
+  
+  /* Retreat-specific background colors */
+  .beach-background {
+    /* background-color: #89cff0; Light blue */
+    background-image: url('https://img2.wallspic.com/crops/1/7/3/9/99371/99371-nature-sky-reflection-tropics-resort_town-3840x2160.jpg');
+  }
+  
+  .mountain-background {
+    /* background-color: #c2d4cd; Light green */
+    background-image: url('https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/92306341.jpg?k=d7074e833a82a4c55151419efd089cb6b7e5f71005d99602f69e96f226e78cdf&o=?s=375x210&ar=16x9');
+  }
+  
+  .lake-background {
+    /* background-color: #b0e57c; Light yellow-green */
+    background-image: url('https://images.unsplash.com/photo-1491557345352-5929e343eb89?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdhdGVyJTIwaG91c2V8ZW58MHx8MHx8fDA%3D');
+  }
+  
+  /* Booking component specific styles */
+  .booking-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: #fff;
+  }
+  
+  .booking-form h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .booking-form label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+  }
+  
+  .booking-form select,
+  .booking-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+   .booking-form button {
+    /* background: #3498db;
+    color: #fff; */
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .booking-form button:hover {
+    /* background: #2980b9; */
+  }
+  
+/* CSS */
+.button-63 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
