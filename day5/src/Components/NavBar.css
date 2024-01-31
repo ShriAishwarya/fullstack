@@ -1,0 +1,40 @@
+/* CustomNavbar.css */
+
+/* Navbar styling */
+.rsuite-navbar {
+    background-color: #0e0f0f; /* Set your desired background color */
+    color: rgb(231, 8, 8);              /* Set your desired text color */
+    padding: 10px;             /* Adjust padding as needed */
+  }
+  
+  /* Brand styling */
+  .rsuite-navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(12, 12, 12);              /* Set brand text color */
+  }
+  
+  /* Nav item styling */
+  .rsuite-nav-item {
+    color: rgb(18, 18, 18);              /* Set link text color */
+    text-decoration: none;     /* Remove default link underline */
+    margin-right: 10px;        /* Adjust spacing between links */
+  }
+  
+  /* Nav menu styling */
+  .rsuite-nav-menu {
+    background-color: #ef0f0f;    /* Set your desired background color for the menu */
+  }
+  
+  /* Submenu styling */
+  .rsuite-nav-submenu {
+    background-color: #444;    /* Set your desired background color for the submenu */
+  }
+  
+  /* Submenu item styling */
+  .rsuite-nav-submenu-item {
+    color: rgb(13, 13, 13);              /* Set submenu item text color */
+  }
+  
+  /* Add any additional styles as needed */
+  

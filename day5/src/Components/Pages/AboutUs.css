@@ -1,0 +1,85 @@
+/* AboutUs.css */
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/*   
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+   */
+  /* AboutUs component specific styles */
+  /* AboutUs.css */
+
+.container {
+  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+.about-content {
+  flex: 1; 
+  padding: 20px;
+}
+
+.sticky-footer {
+ 
+  margin-top: auto; 
+  background-color: black; 
+  padding: 20px; 
+  text-align: center;
+} 
+
+  .empty
+  {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    /* background: #fff; */
+  }
+  
+  main {
+    text-align: center; /* Center the content */
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: #fff;
+  }
+  
+  .about-content h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 1.1em;
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  /* Add any additional styles as needed */
+  
