@@ -1,0 +1,46 @@
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .boat-house-table-container {
+    margin: 20px;
+  }
+  
+  .boat-house-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .boat-house-table th,
+  .boat-house-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .boat-house-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .boat-house-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .boat-house-table tbody tr:hover {
+    background-color: #fff; /* Change to white background on hover */
+  }
+  
+  .boat-house-table button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .boat-house-table button:hover {
+    background-color: #45a049;
+  }
+  

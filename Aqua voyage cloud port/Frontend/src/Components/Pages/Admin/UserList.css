@@ -1,0 +1,61 @@
+.user-list-container {
+    margin: 20px auto;
+    max-width: 800px; /* Adjust the max-width as needed */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .user-list-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-list-table th,
+  .user-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .user-list-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .user-list-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .user-list-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  .user-list-table img {
+    max-width: 50px;
+    height: auto;
+  }
+  
+  /* Style for edit and delete buttons */
+  .user-list-table .edit-button,
+  .user-list-table .delete-button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .user-list-table .edit-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .user-list-table .edit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .user-list-table .delete-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .user-list-table .delete-button:hover {
+    background-color: #d32f2f;
+  }
+  

@@ -1,0 +1,33 @@
+/* Boat House Booking Page */
+.booking-list-container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    /* background-color: white; */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-list-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .booking-list-table th,
+  .booking-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .booking-list-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .booking-list-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .booking-list-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  

@@ -1,0 +1,166 @@
+/*
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url('https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/92306341.jpg?k=d7074e833a82a4c55151419efd089cb6b7e5f71005d99602f69e96f226e78cdf&o=?s=375x210&ar=16x9'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .avatar {
+    margin: 1rem;
+    background-color: #1976d2;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .submit-button {
+    mt: 3;
+    mb: 2;
+    bgcolor: green;
+  }
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  */
+  /* SignUpForm.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/92306341.jpg?k=d7074e833a82a4c55151419efd089cb6b7e5f71005d99602f69e96f226e78cdf&o=?s=375x210&ar=16x9');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .box
+  {
+    background-color: rgb(254, 252, 249);
+    border-radius: 12px; /* You can adjust the radius value to control the roundness */
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 1200px; /* Adjust the max-width as needed */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form {
+    width: 100%;
+  }
+  
+  .submit-button {
+    mt: 3;
+    mb: 2;
+    bgcolor: rgb(208, 12, 202);
+    /* background-color: blueviolet; */
+  }
+  /* <!-- HTML !-->
+<button class="button-63" role="button">Button 63</button> */
+
+/* CSS */
+.bot{
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.bot:active,
+.bot:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .bot {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+  .image-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Additional styles for responsiveness */
+  @media (max-width: 768px) {
+    .form-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .image-container {
+      margin-top: 20px;
+    }
+  }
+  
